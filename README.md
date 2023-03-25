@@ -17,6 +17,11 @@
 ### Что выполняет тест:
 ![This is an image](tests/resources/screenshots/test.png)
 
+## :computer: Запуск тестов из терминала
+```bash
+pytest tests/test_reqres.py --env=prod
+```
+
 В проекте используется встроенный logger - logging:
 ![This is an image](tests/resources/screenshots/logger.png)
 
