@@ -1,4 +1,4 @@
-## Проект UI автотестов demoqa.com
+## Проект API автотестов reqres.in
 
 <!-- Технологии -->
 
@@ -11,21 +11,22 @@
   <code><img width="5%" title="GitHub" src="./tests/resources/logo/github.png"></code>
   <code><img width="5%" title="Allure Report" src="./tests/resources/logo/allure_report.png"></code>
   <code><img width="5%" title="Jenkins" src="./tests/resources/logo/jenkins.png"></code>
-  <code><img width="5%" title="Selenoid" src="./tests/resources/logo/selenoid.png"></code>
+  <code><img width="5%" title="Requests" src="./tests/resources/logo/requests.png"></code>
 </p>
 
 ### Что выполняет тест:
-- [x] Заполняет данные формы
-- [x] Отправляет заполненные данные
-- [x] Проверяет правильность заполненных данных
+![This is an image](tests/resources/screenshots/test.png)
+
+В проекте используется встроенный logger - logging:
+![This is an image](tests/resources/screenshots/logger.png)
 
 <!-- Jenkins -->
 
 ### <img width="3%" title="Jenkins" src="tests/resources/logo/jenkins.png"> Запуск проекта в Jenkins
 
-### [Job](https://jenkins.autotests.cloud/job/qa_quru_jenkins/)
+### [Job](https://jenkins.autotests.cloud/job/test_reqres/)
 
-##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение, через виртуальную машину при помощи Selenoid.
+##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение
 ![This is an image](tests/resources/screenshots/jenkins1.png)
 
 <!-- Allure report -->
@@ -35,8 +36,5 @@
 ##### После прохождения тестов, результаты автоматически сохраняются. Чтобы посмотреть Allure отчет нужно нажать на иконке allure report у сборки.
 ![This is an image](tests/resources/screenshots/allure.png)
 
-##### Во вкладке Suites находятся подробные данные о прохождении теста с приложенными логами, скриншотами и видео о прохождении теста
+##### Во вкладке Suites находятся подробные данные о прохождении теста с приложенными логами
 ![This is an image](tests/resources/screenshots/allure_suites.png)
-
-##### Видео прохождение теста
-![This is an image](tests/resources/video/tests_ui.gif)
