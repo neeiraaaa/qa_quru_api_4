@@ -5,6 +5,7 @@
 
 # CMake
 cmake-build-*/
+test_demoshop.py
 
 
 # File-based project format
